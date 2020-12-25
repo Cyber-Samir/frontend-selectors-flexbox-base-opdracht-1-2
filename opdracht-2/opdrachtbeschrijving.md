@@ -1,4 +1,4 @@
-# Opdrachtbeschrijving
+ # Opdrachtbeschrijving
 In `index.html` vindt je de HTML voor de opdracht. Denk eraan:
 * Verander niets in de html behalve het toevoegen van een `class` of `id`-attribuut als je dat nodig vindt.
 * Alle `div`-tags hebben een class naam die overeenkomt met het opdrachtnummer. 

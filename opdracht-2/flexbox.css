@@ -1,3 +1,84 @@
 /* ======================================================
    OEFENEN MET FLEXBOX
 ========================================================= */
+* {
+    box-sizing: border-box
+}
+
+body {
+    max-width: 1200px;
+}
+
+/*Opdracht 2.1 */
+.container-1 {
+    display: flex;
+    background-color: hsl(260, 60%, 65%);
+    width: 350px;
+    height: 350px;
+}
+
+.content {
+    padding-left: 15px;
+    padding-top: 220px;
+    color: hsl(0, 0%, 100%);
+}
+
+/*opdracht 2.2*/
+.container-2 {
+    display: flex;
+}
+
+.box {
+flex: 25;
+}
+
+.boxx {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+
+}
+/*opdracht 2.3*/
+.container-3 {
+    display: flex;
+}
+
+.box1\. {
+    flex: 1;
+}
+
+.box2\. {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box1 {
+    padding-left: 30px;
+}
+/*opdracht 2.4*/
+.container-4 {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    background-color: hsl(131, 80%, 85%);
+    height: 150px;
+    width: 290px;
+    padding-left: 65px;
+}
+
+/*opdracht 2.5*/
+
+.container-5 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: hsl(38, 97%, 60%);
+    color: hsl(0, 0%, 100%);
+
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+    min-width: 360px;
+}
